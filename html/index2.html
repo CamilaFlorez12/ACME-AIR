@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,26 +7,30 @@
     <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
+     <div class="mensaje-advertencia">
+        <p>Esta página no está disponible en PC</p>
+    </div>
     <main class="contenido-pagina-2">
         <header>
-            <divc class="img-registro">
-                <img src="/img/AVION2.PNG" alt="avión">
+            <div class="img-registro">
+                <img src="/img/avión2.png.png" alt="avión" class="imagen-contenido2">
             </div>
         </header>
         <section class="formulario-registro">
-            <h2>Registro</h2>
-            <form method="get" class="distribucion-registro">
+            <h2 class="registro">Registro</h2>
+            <form method="get" class="distribucion-registro" action="/html/index4.html">
+                <hr>
                 <label for="nombre"></label>
-                <input type="text" name="nombre" placeholder="Nombre Completo">
+                <input type="text" name="nombre" placeholder="Nombre Completo" class="input2" required>
                 <label for="id"></label>
-                <input type="text" name="id" placeholder="No. Identificación">
+                <input type="text" name="id" placeholder="No. Identificación" class="input2" required>
                 <label for="email"></label>
-                <input type="email" name="email" placeholder="E-mail">
+                <input type="email" name="email" placeholder="E-mail" class="input2" required>
                 <label for="telefono"></label>
-                <input type="number" name="telefono" placeholder="Teléfono">
+                <input type="tel" name="telefono" placeholder="Teléfono" class="input2" required>
                 <label for="ciudad"></label>
-                <select>
-                    <option value="valor1"></option>
+                <select class="distribucion-ciudad">
+                    <option value="valor1">Ciudad</option>
                     <option value="valor2">Duitama</option>
                     <option value="valor2">Bucarmanga</option>
                     <option value="valor2">Bogotá</option>
