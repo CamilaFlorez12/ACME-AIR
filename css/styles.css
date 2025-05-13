@@ -1,66 +1,126 @@
-@media(min-width:800px){
-    .mensaje-advertencia{
-        display:flex !important;
+@media(min-width:800px) {
+    .mensaje-advertencia {
+        display: flex !important;
         flex-direction: column;
         align-items: center;
         padding: 50vh;
     }
-    main{
+
+    main {
         display: none !important;
     }
 }
 
-.mensaje-advertencia{
+.mensaje-advertencia {
     display: none;
 }
 
-*{  margin: 0;
+* {
+    margin: 0;
     padding: 0;
     box-sizing: content-box;
 }
-body{
+
+body {
     margin: 0;
     padding: 0;
     height: 100vh;
 }
 
-.contenido-pagina-1{
+.contenido-pagina-1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding:5vh ;
-
-}
-
-.imagen-logo{
-    display: flex;
-    justify-content: center;}
-img{
-    padding: 6vh;
-    width: 20%;
-}
-
-.formulario-ingreso{
-    display: flex;
-    flex-direction: column;
     width: 80%;
+    align-self: center;
+
+
 }
-.formulario-distribucion{
+
+#inputinicio {
+    width: 100% !important;
+}
+
+.divinicio {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
-input{
-    margin-top: 4%;
-    padding: 2vh;
+
+.imagen-logo {
+    display: flex;
+    justify-content: center;
 }
-h2{
+
+.imagen-contenido1 {
+    padding: 6vh;
+    width: 40%;
+}
+
+button[type="submit"] {
+    width: 100%;
+    align-self: center;
+    justify-content: center;
+    padding: 0;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+.formulario-distribucion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vh;
+    width: 80%;
+    justify-content: center;
+}
+
+.checkbox-inicio {
+    display: flex;
+    justify-content: start;
+    align-self: self-start;
+    gap: 1vh;
+}
+
+.input1 {
+    padding: 1.5vh;
+    padding-left: 0;
+    padding-right: 0;
+    border: 1px solid black;
+    width: 100%;
+}
+
+.input2 {
+    padding: 1.7vh;
+    border: 1px solid black;
+}
+
+.input4 {
+    padding: 2.9vh;
+    border: 1px solid black;
+
+}
+
+.busquedas {
+    padding: 1.2vh;
+    border: 1px solid black;
+}
+
+.input8 {
+    padding: 1.7vh;
+    border: 1px solid black;
+}
+
+h2 {
     display: flex;
     justify-content: center;
     margin-bottom: 5%;
     font-size: 2rem;
-    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5%;
 }
-button{
+
+button {
     padding: 2vh;
     background-color: #3f82c0;
     color: white;
@@ -68,12 +128,362 @@ button{
     margin-top: 5%;
     border-radius: 5px;
 }
-p{
+
+p {
     display: flex;
     justify-content: center;
     margin-top: 2%;
 }
-a{
+
+.link1 {
     color: #3f82c0;
-    text-decoration: none;
+}
+
+.link6 {
+    color: #626060;
+}
+
+.contenido-pagina-2,
+.contenido-pagina-3,
+.contenido-pagina-4,
+.contenido-pagina-5,
+.contenido-pagina-6 {
+    background: linear-gradient(to left, rgb(83, 133, 219), pink, purple);
+}
+
+#asubmitinicio {
+    width: 100%;
+}
+
+.img-registro,
+.img-contrasenia,
+.img-crear,
+.img-buscar-vuelos {
+    display: flex;
+    justify-content: center;
+    height: 20%;
+}
+
+.imagen-contenido2,
+.imagen-contenido3,
+.imagen-contenido4 {
+    width: 50%;
+    padding: 2vh;
+}
+
+.distribucion-registro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4vh;
+    margin-top: 3vh;
+    width: 80%;
+    gap: 1.5vh;
+
+}
+
+.div-rec-contrasenia {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    padding: 4vh;
+    align-items: center;
+}
+
+/*cambios*/
+.distribucion-ciudad {
+    margin-top: 3vh;
+    padding: 1.3vh;
+}
+
+.registro {
+    margin-top: 5vh;
+}
+
+.formulario-registro,
+.rec-contrasenia,
+.buscar {
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.div-contrasenia {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.buscar-vuelo {
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+.parrafo {
+
+    text-align: justify;
+    width: 100%;
+    font-size: 1.2rem;
+}
+
+#boton-a {
+    width: 100%;
+}
+
+.boton-pag3 {
+    background-color: #3f82c0;
+    padding: 0;
+    margin: 0;
+    ;
+}
+
+.formulario-recuperacion {
+    width: 100%;
+}
+
+.div-vuelo {
+    display: flex;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.buscar-vuelo {
+    background-color: white;
+
+}
+
+.division-formulario {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 1.2vh;
+}
+
+.nombre {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 1rem;
+}
+
+.info-vuelo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+    margin-left: 1.5rem;
+}
+
+.info-vuelos,
+.div-info-checkin {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 1rem;
+    margin: 1rem 1rem;
+    box-shadow: 3px 3px 3px gray;
+}
+
+.fila1-vuelos,
+.fila2-vuelos,
+.fila1-checkin,
+.fila2-checkin {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    align-items: flex-start;
+}
+
+.content-boton-vuelos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3f82c0;
+    border-radius: 5px;
+    margin: 1rem;
+    
+}
+
+
+
+.boton-pag8 {
+    gap: 1vh;
+}
+
+.fila2-checkin {
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+.contacto-checkin {
+    border: 1px solid black;
+    margin: 1rem;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px gray;
+    height: 35vh;
+}
+
+.div-form-checkin {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 1vh;
+}
+
+.acceso {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5vh;
+}
+
+.saludo {
+    font-size: 2rem;
+}
+
+.pregunta {
+    font-size: 1.5rem;
+}
+
+.opcion-vuelo {
+    display: flex;
+    border: 1px solid black;
+    margin: 1rem;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px gray;
+    width: 100%;
+}
+
+.texto-vuelo {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    align-items: center;
+}
+
+.parrafo-vuelo {
+    margin-left: 2vh;
+    font-size: 1.4rem;
+}
+
+.texto-misvuelos {
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+}
+
+.importante {
+    font-size: 1.5rem;
+}
+
+.fila2-vuelos-buscar {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    align-items: flex-end;
+}
+
+.boton9 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.boton-pag9{
+    font-size: 1.2rem;
+}
+
+.recup-email {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    gap: 1.5vh;
+}
+
+.boton-contrasenia {
+    width: 80%;
+    border-radius: 5px;
+    background-color: #3f82c0;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+
+}
+
+.crearcontra {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.inputinicio1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+    width: 100%;
+}
+
+.cuerpo-crear {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario-completo-crear {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.formulario-crear {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.inputform {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    width: 90%;
+    gap: 2vh
+}
+
+.inputform input {
+    width: 80%;
+    align-self: center;
+    margin-bottom: 5vh;
+}
+#botonguardar{
+    margin: 0 ;
+    padding: 0;
+    height: 7vh;}
+
+.boton-direccion{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none; 
+    color:#000;
 }
