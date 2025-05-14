@@ -117,7 +117,7 @@ button[type="submit"] {
 .input4 {
     padding: 2.9vh;
     border: 1px solid black;
-    transition: transform 1s cubic-bezier(0,2,1,1,0)
+    transition: transform 1s cubic-bezier(0,2,1,1)
 
 }
 
@@ -163,7 +163,7 @@ p {
 
 .link6 {
     color: #626060;
-    transition: transform 1s cubic-bezier(0,2,2,2,0)
+    transition: transform 1s cubic-bezier(0,2,1,1)
 }
 
 .contenido-pagina-2,
