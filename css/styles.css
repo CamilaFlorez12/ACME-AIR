@@ -3,7 +3,15 @@
         display: flex !important;
         flex-direction: column;
         align-items: center;
+        text-align: center;
         padding: 50vh;
+        font-size: 2rem; 
+        background-image: url(/img/avión1.png.png);
+    }
+    .mensaje-advertencia,background-image{
+        background-repeat: no-repeat;
+        background-size: 100vw;
+        background-color: beige;
     }
 
     main {
@@ -39,6 +47,7 @@ body {
 
 #inputinicio {
     width: 100% !important;
+    transition: transform 1s cubic-bezier(0,2,1,1)
 }
 
 .divinicio {
@@ -81,6 +90,7 @@ button[type="submit"] {
     justify-content: start;
     align-self: self-start;
     gap: 1vh;
+    transition: transform 1s cubic-bezier(0,2,1,1)
 }
 
 .input1 {
@@ -89,27 +99,38 @@ button[type="submit"] {
     padding-right: 0;
     border: 1px solid black;
     width: 100%;
+    transition: transform 1s cubic-bezier(0,2,1,1)
 }
 
 .input2 {
     padding: 1.7vh;
     border: 1px solid black;
+    transition: transform 1s cubic-bezier(0,2,1,1);
 }
 
+.input2:hover,.distribucion-ciudad:hover,#inputinicio:hover,.checkbox-inicio:hover,.input1:hover,.opcion-vuelo:hover,.busquedas:hover,.busqueda:hover,.link6:hover,.input4:hover,.input8:hover,.link1:hover{
+    transform:scale(1.1);
+}
+.busqueda{
+    transition: transform 1s cubic-bezier(0,2,1,1);
+}
 .input4 {
     padding: 2.9vh;
     border: 1px solid black;
+    transition: transform 1s cubic-bezier(0,2,1,1,0)
 
 }
 
 .busquedas {
     padding: 1.2vh;
     border: 1px solid black;
+    transition: transform 1s cubic-bezier(0,2,1,1);
 }
 
 .input8 {
     padding: 1.7vh;
     border: 1px solid black;
+    transition: transform 1s cubic-bezier(0,2,1,1);
 }
 
 h2 {
@@ -137,10 +158,12 @@ p {
 
 .link1 {
     color: #3f82c0;
+    transition: transform 1s cubic-bezier(0,2,1,1);
 }
 
 .link6 {
     color: #626060;
+    transition: transform 1s cubic-bezier(0,2,2,2,0)
 }
 
 .contenido-pagina-2,
@@ -194,6 +217,8 @@ p {
 .distribucion-ciudad {
     margin-top: 3vh;
     padding: 1.3vh;
+    border: 1px solid #000;
+    transition: transform 1s cubic-bezier(0,2,1,1)
 }
 
 .registro {
@@ -315,7 +340,7 @@ form {
     background-color: #3f82c0;
     border-radius: 5px;
     margin: 1rem;
-    
+    transition: transform 1s cubic-bezier(0.1,2,0.2,1);
 }
 
 
@@ -366,6 +391,7 @@ form {
     border-radius: 10px;
     box-shadow: 3px 3px 3px gray;
     width: 100%;
+    transition: transform 1s cubic-bezier(0,2,1,1)
 }
 
 .texto-vuelo {
@@ -456,7 +482,8 @@ form {
     display: flex;
     flex-direction: column;
     background-color: white;
-    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     align-items: center;
 }
 
@@ -486,4 +513,14 @@ form {
     align-items: center;
     text-decoration: none; 
     color:#000;
+}
+.imagen-avi{
+    width:15vw;
+}
+button{
+    transition: transform 1s cubic-bezier(0.1,2,0.2,1);
+}
+
+button:hover,.content-boton-vuelos:hover{
+    transform: scale(1.1);
 }
