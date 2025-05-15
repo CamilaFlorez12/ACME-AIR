@@ -529,14 +529,15 @@ button:hover,.content-boton-vuelos:hover{
 }
 
 @keyframes color{
-    0%{background-color:linear-gradient(to left, antiquewhite,rgb(83, 133, 219),rgb(83, 133, 219),rgb(83, 133, 219),pink,pink,pink, pink, purple,purple,purple);}
-    0%{background-color:linear-gradient(to left, rgb(83, 133, 219),antiquewhite,rgb(83, 133, 219),rgb(83, 133, 219),pink,pink,pink, pink, purple,purple,purple);}
-    0%{background-color:linear-gradient(to left, rgb(83, 133, 219),rgb(83, 133, 219),antiquewhite,rgb(83, 133, 219),pink,pink,pink, pink, purple,purple,purple);}
-    0%{background-color:linear-gradient(to left, rgb(83, 133, 219),rgb(83, 133, 219),rgb(83, 133, 219),antiquewhite,pink,pink,pink, pink, purple,purple,purple);}
-    0%{background-color:linear-gradient(to left, rgb(83, 133, 219),rgb(83, 133, 219),rgb(83, 133, 219),rgb(83, 133, 219),antiquewhite,pink,pink, pink, purple,purple);}
-    0%{background-color:linear-gradient(to left, rgb(83, 133, 219),rgb(83, 133, 219),rgb(83, 133, 219),rgb(83, 133, 219),pink,antiquewhite,pink, pink, purple,purple);}
-    0%{background-color:linear-gradient(to left, rgb(83, 133, 219),rgb(83, 133, 219),rgb(83, 133, 219),rgb(83, 133, 219),pink,pink,antiquewhite, pink, purple,purple);}
-    0%{background-color:linear-gradient(to left, rgb(83, 133, 219),rgb(83, 133, 219),rgb(83, 133, 219),rgb(83, 133, 219),pink,pink,pink, antiquewhite, purple,purple);}
-    0%{background-color:linear-gradient(to left, rgb(83, 133, 219),rgb(83, 133, 219),rgb(83, 133, 219),rgb(83, 133, 219),pink,pink,pink, pink, antiquewhite,purple);}
-    0%{background-color:linear-gradient(to left, rgb(83, 133, 219),rgb(83, 133, 219),rgb(83, 133, 219),rgb(83, 133, 219),pink,pink,pink, pink, purple,antiquewhite);}
+    0%{background-color:linear-gradient(to left, antiquewhite,rgb(83, 133, 219),rgb(83, 133, 219),rgb(83, 133, 219),pink,pink,pink, pink, purple,purple,purple,purple);}
+    10%{background-color:linear-gradient(to left, rgb(83, 133, 219),antiquewhite,rgb(83, 133, 219),rgb(83, 133, 219),pink,pink,pink, pink, purple,purple,purple,purple);}
+    20%{background-color:linear-gradient(to left, rgb(83, 133, 219),rgb(83, 133, 219),antiquewhite,rgb(83, 133, 219),pink,pink,pink, pink, purple,purple,purple,purple);}
+    30%{background-color:linear-gradient(to left, rgb(83, 133, 219),rgb(83, 133, 219),rgb(83, 133, 219),antiquewhite,pink,pink,pink, pink, purple,purple,purple,purple);}
+    40%{background-color:linear-gradient(to left, rgb(83, 133, 219),rgb(83, 133, 219),rgb(83, 133, 219),rgb(83, 133, 219),antiquewhite,pink,pink, pink, purple,purple,purple);}
+    50%{background-color:linear-gradient(to left, rgb(83, 133, 219),rgb(83, 133, 219),rgb(83, 133, 219),rgb(83, 133, 219),pink,antiquewhite,pink, pink, purple,purple,purple);}
+    60%{background-color:linear-gradient(to left, rgb(83, 133, 219),rgb(83, 133, 219),rgb(83, 133, 219),rgb(83, 133, 219),pink,pink,antiquewhite, pink, purple,purple,purple);}
+    70%{background-color:linear-gradient(to left, rgb(83, 133, 219),rgb(83, 133, 219),rgb(83, 133, 219),rgb(83, 133, 219),pink,pink,pink, antiquewhite, purple,purple,purple);}
+    80%{background-color:linear-gradient(to left, rgb(83, 133, 219),rgb(83, 133, 219),rgb(83, 133, 219),rgb(83, 133, 219),pink,pink,pink, pink, antiquewhite,purple,purple);}
+    90%{background-color:linear-gradient(to left, rgb(83, 133, 219),rgb(83, 133, 219),rgb(83, 133, 219),rgb(83, 133, 219),pink,pink,pink, pink, purple,antiquewhite,purple);}
+    100%{background-color:linear-gradient(to left, rgb(83, 133, 219),rgb(83, 133, 219),rgb(83, 133, 219),rgb(83, 133, 219),pink,pink,pink, pink, purple,purple,antiquewhite);}
 }
