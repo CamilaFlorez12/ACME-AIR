@@ -172,6 +172,9 @@ p {
 .contenido-pagina-5,
 .contenido-pagina-6 {
     background: linear-gradient(to left, rgb(83, 133, 219), pink, purple);
+    animation-name: color;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
 }
 
 #asubmitinicio {
@@ -523,4 +526,17 @@ button{
 
 button:hover,.content-boton-vuelos:hover{
     transform: scale(1.1);
+}
+
+@keyframes color{
+    0%{background-color:linear-gradient(to left, antiquewhite,rgb(83, 133, 219),rgb(83, 133, 219),rgb(83, 133, 219),pink,pink,pink, pink, purple,purple,purple);}
+    0%{background-color:linear-gradient(to left, rgb(83, 133, 219),antiquewhite,rgb(83, 133, 219),rgb(83, 133, 219),pink,pink,pink, pink, purple,purple,purple);}
+    0%{background-color:linear-gradient(to left, rgb(83, 133, 219),rgb(83, 133, 219),antiquewhite,rgb(83, 133, 219),pink,pink,pink, pink, purple,purple,purple);}
+    0%{background-color:linear-gradient(to left, rgb(83, 133, 219),rgb(83, 133, 219),rgb(83, 133, 219),antiquewhite,pink,pink,pink, pink, purple,purple,purple);}
+    0%{background-color:linear-gradient(to left, rgb(83, 133, 219),rgb(83, 133, 219),rgb(83, 133, 219),rgb(83, 133, 219),antiquewhite,pink,pink, pink, purple,purple);}
+    0%{background-color:linear-gradient(to left, rgb(83, 133, 219),rgb(83, 133, 219),rgb(83, 133, 219),rgb(83, 133, 219),pink,antiquewhite,pink, pink, purple,purple);}
+    0%{background-color:linear-gradient(to left, rgb(83, 133, 219),rgb(83, 133, 219),rgb(83, 133, 219),rgb(83, 133, 219),pink,pink,antiquewhite, pink, purple,purple);}
+    0%{background-color:linear-gradient(to left, rgb(83, 133, 219),rgb(83, 133, 219),rgb(83, 133, 219),rgb(83, 133, 219),pink,pink,pink, antiquewhite, purple,purple);}
+    0%{background-color:linear-gradient(to left, rgb(83, 133, 219),rgb(83, 133, 219),rgb(83, 133, 219),rgb(83, 133, 219),pink,pink,pink, pink, antiquewhite,purple);}
+    0%{background-color:linear-gradient(to left, rgb(83, 133, 219),rgb(83, 133, 219),rgb(83, 133, 219),rgb(83, 133, 219),pink,pink,pink, pink, purple,antiquewhite);}
 }
